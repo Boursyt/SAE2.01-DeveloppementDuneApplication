@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SAE2._1_Dev_Dune_APP.Properties;
 
 namespace SAE2._1_Dev_Dune_APP
 {
@@ -25,20 +26,20 @@ namespace SAE2._1_Dev_Dune_APP
         
         private void cmdButtonValider_Click(object sender, EventArgs e)
         {
-            if (comboBoxLigne.SelectedItem.Equals(24))
+            if (comboBoxLigne.SelectedIndex.Equals(0))
             {
                 pictureBox1.Visible = true;
-                pictureBox1.Load("Ressources/24.jpg");
+                pictureBox1.Image = Resources._24;
             }
-            if (comboBoxLigne.SelectedItem.Equals(39))
+            if (comboBoxLigne.SelectedIndex.Equals(1))
             {
                 pictureBox1.Visible = true;
-                pictureBox1.Load("Ressources/39.jpg");
+                pictureBox1.Image = Resources._39;
             }
-            if (comboBoxLigne.SelectedItem.Equals(65))
+            if (comboBoxLigne.SelectedIndex.Equals(2))
             {
                 pictureBox1.Visible = true;
-                pictureBox1.Load("Ressources/65.jpg");
+                pictureBox1.Image = Resources._65;
             }
         }
         
