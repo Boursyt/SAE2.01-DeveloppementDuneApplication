@@ -9,3 +9,15 @@ C:\Users\hypto\OneDrive\Bureau\SAE2.1\SAE2.01-DeveloppementDuneApplication\SAE2.
 C:\Users\hypto\OneDrive\Bureau\SAE2.1\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.csproj.CoreCompileInputs.cache
 C:\Users\hypto\OneDrive\Bureau\SAE2.1\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.exe
 C:\Users\hypto\OneDrive\Bureau\SAE2.1\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.pdb
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\bin\Debug\SAE2.1_Dev_Dune_APP.exe.config
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\bin\Debug\SAE2.1_Dev_Dune_APP.exe
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\bin\Debug\SAE2.1_Dev_Dune_APP.pdb
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.csproj.AssemblyReference.cache
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.csproj.SuggestedBindingRedirects.cache
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2._1_Dev_Dune_APP.FrmAcceuil.resources
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2._1_Dev_Dune_APP.Properties.Resources.resources
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.csproj.GenerateResource.cache
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.csproj.CoreCompileInputs.cache
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.exe
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.pdb
+E:\WinUtilit\Documents\programming\C#\SAE2.1\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2._1_Dev_Dune_APP.FrmHoraire.resources

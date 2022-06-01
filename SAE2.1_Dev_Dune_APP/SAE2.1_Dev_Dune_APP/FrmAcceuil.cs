@@ -22,14 +22,16 @@ namespace SAE2._1_Dev_Dune_APP
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void CmdAcceuil_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void CmdAcceuil_Click(object sender, EventArgs e)
+        private void CmdHoraireLigne_Click(object sender, EventArgs e)
         {
-
+            Hide();
+            FrmHoraire fHoraire = new FrmHoraire();
+            fHoraire.Show();
         }
     }
 }
