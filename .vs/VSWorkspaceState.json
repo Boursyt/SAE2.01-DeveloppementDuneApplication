@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CLassLibrairieBDD",
+    "\\CLassLibrairieBDD\\CLassLibrairieBDD",
+    "\\SAE2.1_Dev_Dune_APP"
   ],
+  "SelectedNode": "\\CLassLibrairieBDD\\CLassLibrairieBDD\\BDD.cs",
   "PreviewInSolutionExplorer": false
 }

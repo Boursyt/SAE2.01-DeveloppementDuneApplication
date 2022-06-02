@@ -30,18 +30,18 @@ namespace SAE2._1_Dev_Dune_APP
         {
             if (comboBoxLigne.SelectedIndex.Equals(0))
             {
+                pictureBox1.Load(BDD.imageBDD(1));
                 pictureBox1.Visible = true;
-                pictureBox1.Image = Resources._24;
             }
             if (comboBoxLigne.SelectedIndex.Equals(1))
             {
+                pictureBox1.Load(BDD.imageBDD(2));
                 pictureBox1.Visible = true;
-                pictureBox1.Image = Resources._39;
             }
             if (comboBoxLigne.SelectedIndex.Equals(2))
             {
+                pictureBox1.Load(BDD.imageBDD(3));
                 pictureBox1.Visible = true;
-                pictureBox1.Image = Resources._65;
             }
         }
         
@@ -58,6 +58,20 @@ namespace SAE2._1_Dev_Dune_APP
             Hide();
             FrmCarteLigne fCarteLigne = new FrmCarteLigne();
             fCarteLigne.Show();
+        }
+
+        private void CmdRechercheItineraire_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmRechercheItineraire fHRechercheItineraire = new FrmRechercheItineraire();
+            fHRechercheItineraire.Show();
+        }
+
+        private void CmdHoraireLigne_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmHoraire fHoraire = new FrmHoraire();
+            fHoraire.Show();
         }
     }
 }

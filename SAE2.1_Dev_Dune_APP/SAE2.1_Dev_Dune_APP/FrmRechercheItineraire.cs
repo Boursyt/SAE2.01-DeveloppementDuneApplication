@@ -16,5 +16,33 @@ namespace SAE2._1_Dev_Dune_APP
         {
             InitializeComponent();
         }
+
+        private void CmdAcceuil_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmAcceuil fHacceuil = new FrmAcceuil();
+            fHacceuil.Show();
+        }
+
+        private void CmdRechercheItineraire_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmRechercheItineraire fHRechercheItineraire = new FrmRechercheItineraire();
+            fHRechercheItineraire.Show();
+        }
+
+        private void CmdHoraireLigne_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmHoraire fHoraire = new FrmHoraire();
+            fHoraire.Show();
+        }
+
+        private void CmdCarteLigne_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmCarteLigne fCarteLigne = new FrmCarteLigne();
+            fCarteLigne.Show();
+        }
     }
 }

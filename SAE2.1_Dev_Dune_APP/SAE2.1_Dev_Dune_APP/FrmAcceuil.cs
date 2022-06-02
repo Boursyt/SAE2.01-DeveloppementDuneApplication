@@ -53,9 +53,19 @@ namespace SAE2._1_Dev_Dune_APP
             ConnexionOuverte = BDD.initConnexion();
 
             if (ConnexionOuverte)
-            {}
+            {
+            }
             else
                 MessageBox.Show("La connexion à la base de donnée a échoué.");
+
+            ImgCarteLevis.Load(BDD.imageBDD(7));
+        }
+
+        private void CmdRechercheItineraire_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmRechercheItineraire fHRechercheItineraire = new FrmRechercheItineraire();
+            fHRechercheItineraire.Show();
         }
     }
 }

@@ -76,3 +76,4 @@ C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune
 C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.exe
 C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.pdb
 C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2._1_Dev_Dune_APP.FrmCarteLigne.resources
+C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2._1_Dev_Dune_APP.FrmRechercheItineraire.resources

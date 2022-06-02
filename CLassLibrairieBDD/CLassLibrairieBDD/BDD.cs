@@ -1,4 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
+using MySql.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace CLassLibrairieBDD
 
         public static bool initConnexion()
         {
-            string serveur = "10.1.139.235";
+            string serveur = "10.1.139.236";
             string login = "c1";
             string passwd = "mdp";
             string BD = "basec1";
@@ -55,14 +56,28 @@ namespace CLassLibrairieBDD
 
         }
 
-        public static bool AjoutPartie()
+
+
+        public static string imageBDD(int numimage)
         {
-            return true;
+            string sql;
+            string url = " ";
+            sql = $"select * from Image";
+            MySqlCommand cmd = new MySqlCommand(sql, macnx);
+            MySqlDataReader rdr = cmd.ExecuteReader();
+            int i = 1;
+            while (rdr.Read())
+            {
+                if (i == numimage)
+                {
+                    url = rdr.GetString(2);
+                    break;
+                }
+                i++;
+            }
+            rdr.Close();
+            cmd.Dispose();
+            return url;
         }
-    }
-
-
-    public class Class1
-    {
     }
 }

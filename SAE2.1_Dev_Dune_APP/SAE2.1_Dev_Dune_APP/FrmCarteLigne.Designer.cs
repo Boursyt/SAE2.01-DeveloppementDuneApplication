@@ -78,17 +78,18 @@
             // CmdRechercheItineraire
             // 
             this.CmdRechercheItineraire.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmdRechercheItineraire.Location = new System.Drawing.Point(239, 623);
+            this.CmdRechercheItineraire.Location = new System.Drawing.Point(239, 610);
             this.CmdRechercheItineraire.Name = "CmdRechercheItineraire";
             this.CmdRechercheItineraire.Size = new System.Drawing.Size(186, 83);
             this.CmdRechercheItineraire.TabIndex = 26;
             this.CmdRechercheItineraire.Text = "Recherche d\'itinéraire";
             this.CmdRechercheItineraire.UseVisualStyleBackColor = true;
+            this.CmdRechercheItineraire.Click += new System.EventHandler(this.CmdRechercheItineraire_Click);
             // 
             // CmdHoraireLigne
             // 
             this.CmdHoraireLigne.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmdHoraireLigne.Location = new System.Drawing.Point(467, 623);
+            this.CmdHoraireLigne.Location = new System.Drawing.Point(467, 610);
             this.CmdHoraireLigne.Name = "CmdHoraireLigne";
             this.CmdHoraireLigne.Size = new System.Drawing.Size(186, 83);
             this.CmdHoraireLigne.TabIndex = 25;
@@ -99,7 +100,7 @@
             // CmdCarteLigne
             // 
             this.CmdCarteLigne.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmdCarteLigne.Location = new System.Drawing.Point(695, 623);
+            this.CmdCarteLigne.Location = new System.Drawing.Point(695, 610);
             this.CmdCarteLigne.Name = "CmdCarteLigne";
             this.CmdCarteLigne.Size = new System.Drawing.Size(186, 83);
             this.CmdCarteLigne.TabIndex = 24;
@@ -110,7 +111,7 @@
             // 
             this.CmdAcceuil.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.CmdAcceuil.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmdAcceuil.Location = new System.Drawing.Point(13, 623);
+            this.CmdAcceuil.Location = new System.Drawing.Point(13, 610);
             this.CmdAcceuil.Name = "CmdAcceuil";
             this.CmdAcceuil.Size = new System.Drawing.Size(186, 83);
             this.CmdAcceuil.TabIndex = 23;
@@ -122,7 +123,7 @@
             // 
             this.CmdAdmin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmdAdmin.ForeColor = System.Drawing.Color.Red;
-            this.CmdAdmin.Location = new System.Drawing.Point(909, 623);
+            this.CmdAdmin.Location = new System.Drawing.Point(909, 610);
             this.CmdAdmin.Name = "CmdAdmin";
             this.CmdAdmin.Size = new System.Drawing.Size(142, 83);
             this.CmdAdmin.TabIndex = 22;
@@ -142,7 +143,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cmdButtonValider);
             this.Controls.Add(this.comboBoxLigne);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmCarteLigne";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autobus Levis - Carte des lignes";
             this.Load += new System.EventHandler(this.FrmCarteLigne_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

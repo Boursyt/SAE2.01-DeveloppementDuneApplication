@@ -42,27 +42,29 @@
             // CmdRechercheItineraire
             // 
             this.CmdRechercheItineraire.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmdRechercheItineraire.Location = new System.Drawing.Point(240, 623);
+            this.CmdRechercheItineraire.Location = new System.Drawing.Point(289, 610);
             this.CmdRechercheItineraire.Name = "CmdRechercheItineraire";
             this.CmdRechercheItineraire.Size = new System.Drawing.Size(186, 83);
             this.CmdRechercheItineraire.TabIndex = 14;
             this.CmdRechercheItineraire.Text = "Recherche d\'itinéraire";
             this.CmdRechercheItineraire.UseVisualStyleBackColor = true;
+            this.CmdRechercheItineraire.Click += new System.EventHandler(this.CmdRechercheItineraire_Click);
             // 
             // CmdHoraireLigne
             // 
             this.CmdHoraireLigne.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.5F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmdHoraireLigne.Location = new System.Drawing.Point(468, 623);
+            this.CmdHoraireLigne.Location = new System.Drawing.Point(517, 610);
             this.CmdHoraireLigne.Name = "CmdHoraireLigne";
             this.CmdHoraireLigne.Size = new System.Drawing.Size(186, 83);
             this.CmdHoraireLigne.TabIndex = 13;
             this.CmdHoraireLigne.Text = "Horaire des Lignes";
             this.CmdHoraireLigne.UseVisualStyleBackColor = true;
+            this.CmdHoraireLigne.Click += new System.EventHandler(this.CmdHoraireLigne_Click);
             // 
             // CmdCarteLigne
             // 
             this.CmdCarteLigne.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmdCarteLigne.Location = new System.Drawing.Point(696, 623);
+            this.CmdCarteLigne.Location = new System.Drawing.Point(745, 610);
             this.CmdCarteLigne.Name = "CmdCarteLigne";
             this.CmdCarteLigne.Size = new System.Drawing.Size(186, 83);
             this.CmdCarteLigne.TabIndex = 12;
@@ -74,7 +76,7 @@
             // 
             this.CmdAcceuil.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.CmdAcceuil.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmdAcceuil.Location = new System.Drawing.Point(14, 623);
+            this.CmdAcceuil.Location = new System.Drawing.Point(63, 610);
             this.CmdAcceuil.Name = "CmdAcceuil";
             this.CmdAcceuil.Size = new System.Drawing.Size(186, 83);
             this.CmdAcceuil.TabIndex = 11;
@@ -86,7 +88,7 @@
             // 
             this.CmdAdmin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmdAdmin.ForeColor = System.Drawing.Color.Red;
-            this.CmdAdmin.Location = new System.Drawing.Point(909, 623);
+            this.CmdAdmin.Location = new System.Drawing.Point(958, 610);
             this.CmdAdmin.Name = "CmdAdmin";
             this.CmdAdmin.Size = new System.Drawing.Size(142, 83);
             this.CmdAdmin.TabIndex = 10;
@@ -121,10 +123,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SAE2._1_Dev_Dune_APP.Properties.Resources._65;
-            this.pictureBox1.Location = new System.Drawing.Point(22, 192);
+            this.pictureBox1.Location = new System.Drawing.Point(17, 192);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1029, 272);
+            this.pictureBox1.Size = new System.Drawing.Size(1119, 200);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
@@ -133,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1065, 707);
+            this.ClientSize = new System.Drawing.Size(1158, 707);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cmdButtonValider);
             this.Controls.Add(this.comboBoxLigne);
@@ -142,8 +144,12 @@
             this.Controls.Add(this.CmdCarteLigne);
             this.Controls.Add(this.CmdAcceuil);
             this.Controls.Add(this.CmdAdmin);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmHoraire";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autobus Levis- Horaire des lignes";
             this.Load += new System.EventHandler(this.FrmHoraire_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

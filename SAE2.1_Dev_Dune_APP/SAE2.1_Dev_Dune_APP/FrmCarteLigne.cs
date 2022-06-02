@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using SAE2._1_Dev_Dune_APP.Properties;
+using CLassLibrairieBDD;
 
 namespace SAE2._1_Dev_Dune_APP
 {
@@ -23,18 +24,18 @@ namespace SAE2._1_Dev_Dune_APP
         {
             if (comboBoxLigne.SelectedIndex.Equals(0))
             {
+                pictureBox1.Load(BDD.imageBDD(4));
                 pictureBox1.Visible = true;
-                pictureBox1.Image = Resources.carte_ligne_24;
             }
             if (comboBoxLigne.SelectedIndex.Equals(1))
             {
+                pictureBox1.Load(BDD.imageBDD(5));
                 pictureBox1.Visible = true;
-                pictureBox1.Image = Resources.carte_ligne_39;
             }
             if (comboBoxLigne.SelectedIndex.Equals(2))
             {
+                pictureBox1.Load(BDD.imageBDD(6));
                 pictureBox1.Visible = true;
-                pictureBox1.Image = Resources.carte_ligne_65;
             }
         }
 
@@ -56,6 +57,13 @@ namespace SAE2._1_Dev_Dune_APP
             Hide();
             FrmHoraire fHoraire = new FrmHoraire();
             fHoraire.Show();
+        }
+
+        private void CmdRechercheItineraire_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmRechercheItineraire fHRechercheItineraire = new FrmRechercheItineraire();
+            fHRechercheItineraire.Show();
         }
     }
 }
