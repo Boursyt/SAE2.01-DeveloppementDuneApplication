@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using SAE2._1_Dev_Dune_APP.Properties;
+using CLassLibrairieBDD;
+
 
 namespace SAE2._1_Dev_Dune_APP
 {

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAE2.1_Dev_Dune_APP", "SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP.csproj", "{219EF094-88F2-4A7A-B6BD-2201CD1B2272}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLassLibrairieBDD", "..\CLassLibrairieBDD\CLassLibrairieBDD\CLassLibrairieBDD.csproj", "{B66CD518-89B4-46A9-A306-6DD14F8139B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{219EF094-88F2-4A7A-B6BD-2201CD1B2272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{219EF094-88F2-4A7A-B6BD-2201CD1B2272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{219EF094-88F2-4A7A-B6BD-2201CD1B2272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66CD518-89B4-46A9-A306-6DD14F8139B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66CD518-89B4-46A9-A306-6DD14F8139B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66CD518-89B4-46A9-A306-6DD14F8139B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66CD518-89B4-46A9-A306-6DD14F8139B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

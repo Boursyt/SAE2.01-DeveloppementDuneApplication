@@ -1,0 +1,8 @@
+C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\bin\Debug\CLassLibrairieBDD.dll
+C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\bin\Debug\CLassLibrairieBDD.pdb
+C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\bin\Debug\MySql.Data.dll
+C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.csproj.AssemblyReference.cache
+C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.csproj.CoreCompileInputs.cache
+C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.csproj.CopyComplete
+C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.dll
+C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.pdb

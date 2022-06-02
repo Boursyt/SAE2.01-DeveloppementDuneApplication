@@ -1,4 +1,5 @@
 ﻿using System;
+using CLassLibrairieBDD;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace SAE2._1_Dev_Dune_APP
 {
@@ -24,7 +26,10 @@ namespace SAE2._1_Dev_Dune_APP
 
         private void CmdAcceuil_Click(object sender, EventArgs e)
         {
-
+            
+            Hide();
+            FrmAcceuil fHacceuil = new FrmAcceuil();
+            fHacceuil.Show();
         }
 
         private void CmdHoraireLigne_Click(object sender, EventArgs e)
