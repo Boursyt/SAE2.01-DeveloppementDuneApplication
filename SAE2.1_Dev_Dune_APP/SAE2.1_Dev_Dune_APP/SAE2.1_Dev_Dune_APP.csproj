@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmRechercheItineraire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRechercheItineraire.Designer.cs">
+      <DependentUpon>FrmRechercheItineraire.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCarteLigne.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmRechercheItineraire.resx">
+      <DependentUpon>FrmRechercheItineraire.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCarteLigne.resx">
       <DependentUpon>FrmCarteLigne.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +133,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\carte_ligne_65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vertical-Line-Free-PNG.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

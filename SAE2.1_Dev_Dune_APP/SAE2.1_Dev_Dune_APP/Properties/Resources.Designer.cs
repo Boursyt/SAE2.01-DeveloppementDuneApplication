@@ -119,5 +119,15 @@ namespace SAE2._1_Dev_Dune_APP.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Vertical_Line_Free_PNG {
+            get {
+                object obj = ResourceManager.GetObject("Vertical-Line-Free-PNG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
