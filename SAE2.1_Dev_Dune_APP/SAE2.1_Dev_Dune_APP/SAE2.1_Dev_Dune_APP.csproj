@@ -92,7 +92,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\CLassLibrairieBDD\CLassLibrairieBDD\CLassLibrairieBDD.csproj">
+      <Project>{b66cd518-89b4-46a9-a306-6dd14f8139b8}</Project>
+      <Name>CLassLibrairieBDD</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\24.png" />
   </ItemGroup>

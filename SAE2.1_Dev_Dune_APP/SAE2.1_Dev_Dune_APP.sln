@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAE2.1_Dev_Dune_APP", "SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP.csproj", "{219EF094-88F2-4A7A-B6BD-2201CD1B2272}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B66CD518-89B4-46A9-A306-6DD14F8139B8} = {B66CD518-89B4-46A9-A306-6DD14F8139B8}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLassLibrairieBDD", "..\CLassLibrairieBDD\CLassLibrairieBDD\CLassLibrairieBDD.csproj", "{B66CD518-89B4-46A9-A306-6DD14F8139B8}"
 EndProject

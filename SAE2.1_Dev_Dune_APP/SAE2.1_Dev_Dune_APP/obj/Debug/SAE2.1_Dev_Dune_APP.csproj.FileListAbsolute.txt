@@ -45,3 +45,7 @@ C:\Users\hypto\source\repos\Boursyt\SAE2.01-DeveloppementDuneApplication\SAE2.1_
 C:\Users\hypto\source\repos\Boursyt\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.csproj.CoreCompileInputs.cache
 C:\Users\hypto\source\repos\Boursyt\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.exe
 C:\Users\hypto\source\repos\Boursyt\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.pdb
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\bin\Debug\CLassLibrairieBDD.dll
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\bin\Debug\MySql.Data.dll
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\bin\Debug\CLassLibrairieBDD.pdb
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.csproj.CopyComplete

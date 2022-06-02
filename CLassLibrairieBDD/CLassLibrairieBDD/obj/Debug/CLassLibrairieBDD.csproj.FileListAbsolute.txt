@@ -6,3 +6,10 @@ C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLass
 C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.csproj.CopyComplete
 C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.dll
 C:\Users\hypto\OneDrive\Documents\jeu allumettes ihm\dev\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.pdb
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\bin\Debug\CLassLibrairieBDD.dll
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\bin\Debug\CLassLibrairieBDD.pdb
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.csproj.AssemblyReference.cache
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.csproj.CoreCompileInputs.cache
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.csproj.CopyComplete
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.dll
+E:\WinUtilit\Documents\Scolaire\IUT\SAE\IHM\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.pdb
