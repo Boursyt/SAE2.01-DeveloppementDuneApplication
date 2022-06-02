@@ -98,7 +98,7 @@
             // 
             // CmdCarteLigne
             // 
-            this.CmdCarteLigne.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CmdCarteLigne.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmdCarteLigne.Location = new System.Drawing.Point(695, 623);
             this.CmdCarteLigne.Name = "CmdCarteLigne";
             this.CmdCarteLigne.Size = new System.Drawing.Size(186, 83);
@@ -109,7 +109,7 @@
             // CmdAcceuil
             // 
             this.CmdAcceuil.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.CmdAcceuil.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CmdAcceuil.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmdAcceuil.Location = new System.Drawing.Point(13, 623);
             this.CmdAcceuil.Name = "CmdAcceuil";
             this.CmdAcceuil.Size = new System.Drawing.Size(186, 83);

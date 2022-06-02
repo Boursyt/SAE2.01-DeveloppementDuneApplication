@@ -115,6 +115,7 @@
             this.Controls.Add(this.ImgCarteLevis);
             this.Name = "FrmAcceuil";
             this.Text = "Autobus Levis- Acceuil";
+            this.Load += new System.EventHandler(this.FrmAcceuil_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ImgCarteLevis)).EndInit();
             this.ResumeLayout(false);
 

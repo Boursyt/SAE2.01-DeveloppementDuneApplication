@@ -45,5 +45,17 @@ namespace SAE2._1_Dev_Dune_APP
             FrmCarteLigne fCarteLigne = new FrmCarteLigne();
             fCarteLigne.Show();
         }
+
+        private void FrmAcceuil_Load(object sender, EventArgs e)
+        {
+            bool ConnexionOuverte;
+
+            ConnexionOuverte = BDD.initConnexion();
+
+            if (ConnexionOuverte)
+            {}
+            else
+                MessageBox.Show("La connexion à la base de donnée a échoué.");
+        }
     }
 }

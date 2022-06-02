@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "219ef094-88f2-4a7a-b6bd-2201cd1b2272": {
+      "ProjectGuid": "219ef094-88f2-4a7a-b6bd-2201cd1b2272",
+      "DisplayName": "SAE2.1_Dev_Dune_APP",
+      "ColorIndex": 0
+    },
+    "b66cd518-89b4-46a9-a306-6dd14f8139b8": {
+      "ProjectGuid": "b66cd518-89b4-46a9-a306-6dd14f8139b8",
+      "DisplayName": "CLassLibrairieBDD",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
