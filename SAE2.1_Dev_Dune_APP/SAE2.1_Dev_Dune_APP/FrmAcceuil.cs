@@ -38,5 +38,12 @@ namespace SAE2._1_Dev_Dune_APP
             FrmHoraire fHoraire = new FrmHoraire();
             fHoraire.Show();
         }
+
+        private void CmdCarteLigne_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmCarteLigne fCarteLigne = new FrmCarteLigne();
+            fCarteLigne.Show();
+        }
     }
 }

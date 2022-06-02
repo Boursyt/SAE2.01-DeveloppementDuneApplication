@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCarteLigne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCarteLigne.Designer.cs">
+      <DependentUpon>FrmCarteLigne.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmHoraire.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCarteLigne.resx">
+      <DependentUpon>FrmCarteLigne.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmHoraire.resx">
       <DependentUpon>FrmHoraire.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +115,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_ligne_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_ligne_39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_ligne_65.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

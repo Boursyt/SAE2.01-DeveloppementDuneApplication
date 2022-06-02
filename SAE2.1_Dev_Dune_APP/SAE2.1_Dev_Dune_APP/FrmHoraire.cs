@@ -53,6 +53,11 @@ namespace SAE2._1_Dev_Dune_APP
             frmAcceuil.Show();
         }
 
-        
+        private void CmdCarteLigne_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmCarteLigne fCarteLigne = new FrmCarteLigne();
+            fCarteLigne.Show();
+        }
     }
 }
