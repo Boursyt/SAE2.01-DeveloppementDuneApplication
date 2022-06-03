@@ -79,5 +79,20 @@ namespace CLassLibrairieBDD
             cmd.Dispose();
             return url;
         }
+
+        public static bool executeSQL(string sql)
+        {
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(sql, macnx);
+                cmd.Dispose();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+       
     }
 }
