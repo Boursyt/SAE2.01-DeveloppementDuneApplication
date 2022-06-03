@@ -73,5 +73,12 @@ namespace SAE2._1_Dev_Dune_APP
             FrmHoraire fHoraire = new FrmHoraire();
             fHoraire.Show();
         }
+
+        private void CmdAdmin_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmAdmin fHAdmin = new FrmAdmin();
+            fHAdmin.Show();
+        }
     }
 }

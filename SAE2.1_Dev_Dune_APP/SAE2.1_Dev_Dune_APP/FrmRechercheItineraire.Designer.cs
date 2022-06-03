@@ -106,6 +106,7 @@
             this.CmdAdmin.TabIndex = 10;
             this.CmdAdmin.Text = "Mode admin";
             this.CmdAdmin.UseVisualStyleBackColor = true;
+            this.CmdAdmin.Click += new System.EventHandler(this.CmdAdmin_Click);
             // 
             // LblArretDep
             // 
@@ -222,10 +223,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmRechercheItineraire";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Autobus Levis - Recherche d\'itinéraire";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

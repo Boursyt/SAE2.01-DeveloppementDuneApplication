@@ -47,6 +47,7 @@
             this.CmdAdmin.TabIndex = 5;
             this.CmdAdmin.Text = "Mode admin";
             this.CmdAdmin.UseVisualStyleBackColor = true;
+            this.CmdAdmin.Click += new System.EventHandler(this.CmdAdmin_Click);
             // 
             // CmdAcceuil
             // 
@@ -114,7 +115,6 @@
             this.Controls.Add(this.ImgCarteLevis);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmAcceuil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autobus Levis- Acceuil";

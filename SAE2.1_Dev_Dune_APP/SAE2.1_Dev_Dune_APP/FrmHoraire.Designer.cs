@@ -94,6 +94,7 @@
             this.CmdAdmin.TabIndex = 10;
             this.CmdAdmin.Text = "Mode admin";
             this.CmdAdmin.UseVisualStyleBackColor = true;
+            this.CmdAdmin.Click += new System.EventHandler(this.CmdAdmin_Click);
             // 
             // comboBoxLigne
             // 
@@ -147,7 +148,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmHoraire";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autobus Levis- Horaire des lignes";

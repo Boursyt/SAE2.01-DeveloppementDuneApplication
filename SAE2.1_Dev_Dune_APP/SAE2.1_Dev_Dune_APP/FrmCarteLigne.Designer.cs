@@ -129,6 +129,7 @@
             this.CmdAdmin.TabIndex = 22;
             this.CmdAdmin.Text = "Mode admin";
             this.CmdAdmin.UseVisualStyleBackColor = true;
+            this.CmdAdmin.Click += new System.EventHandler(this.CmdAdmin_Click);
             // 
             // FrmCarteLigne
             // 
@@ -144,7 +145,6 @@
             this.Controls.Add(this.cmdButtonValider);
             this.Controls.Add(this.comboBoxLigne);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmCarteLigne";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autobus Levis - Carte des lignes";

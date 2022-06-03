@@ -106,3 +106,4 @@ C:\Users\hypto\OneDrive\Bureau\SAE2.1\Boursyt\SAE2.01-DeveloppementDuneApplicati
 C:\Users\hypto\OneDrive\Bureau\SAE2.1\Boursyt\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.exe
 C:\Users\hypto\OneDrive\Bureau\SAE2.1\Boursyt\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\SAE2.1_Dev_Dune_APP.pdb
 C:\Users\hypto\OneDrive\Bureau\SAE2.1\Boursyt\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\CLassLibrairieBDD.FrmAdmin.resources
+C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\SAE2.1_Dev_Dune_APP\SAE2.1_Dev_Dune_APP\obj\Debug\CLassLibrairieBDD.FrmAdmin.resources

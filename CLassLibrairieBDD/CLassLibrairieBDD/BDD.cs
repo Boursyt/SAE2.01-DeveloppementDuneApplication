@@ -11,7 +11,7 @@ namespace CLassLibrairieBDD
     public class BDD
     {
 
-        private static MySqlConnection macnx;
+        public static MySqlConnection macnx;
 
 
         public static bool initConnexion()
