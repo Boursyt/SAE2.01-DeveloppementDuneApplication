@@ -14,6 +14,7 @@ using SAE2._1_Dev_Dune_APP;
 
 namespace CLassLibrairieBDD
 {
+
     public partial class FrmAdmin : Form
     {
         public FrmAdmin()
@@ -106,7 +107,6 @@ namespace CLassLibrairieBDD
         private void masquerEntrer()
         {
             textBox1.Location = new Point(145, textBox1.Location.Y);
-            textBox1.Size = new Size(291, textBox1.Size.Height);
 
             label1.Visible = false;
             label2.Visible = false;
@@ -116,11 +116,15 @@ namespace CLassLibrairieBDD
 
             textBox1.Visible = false;
             textBox2.Visible = false;
-            textBox3.Visible = false;
+            textBox2.Visible = false;
+
+           
         }
 
         private void CmdAjouter_Click(object sender, EventArgs e)
         {
+            string sql = "";
+
             masquerEntrer();
 
             label1.Text = $"INSERT INTO {cbxTable.Text} (";
@@ -128,47 +132,58 @@ namespace CLassLibrairieBDD
             label3.Text = " VALUES (";
             label5.Text = ")";
 
-            textBox3.Size = new Size(500, textBox3.Size.Height);
+            textBox2.Size = new Size(500, textBox2.Size.Height);
 
             textBox1.ForeColor = Color.Gray;
-            textBox3.ForeColor = Color.Gray;
+            textBox2.ForeColor = Color.Gray;
             textBox1.Text = "entrer le nom des champs ";
-            textBox3.Text = "entrer la valeur des champs";
+            textBox2.Text = "entrer la valeur des champs";
 
             label1.Visible = true;
             label2.Visible = true;
             label3.Visible = true;
             label5.Visible = true;
             textBox1.Visible = true;
-            textBox3.Visible = true;
+            textBox2.Visible = true;
+
+            sql = label1.Text + textBox1.Text + label2.Text + label3.Text + textBox2.Text + label5.Text + ";";
+
+            label4.Text = sql;
         }
 
         private void CmdModifier_Click(object sender, EventArgs e)
         {
+            string sql = "";
+
             masquerEntrer();
 
-            label1.Text = $"UPDATE {cbxTable.Text} SET";
+            label1.Text = $"UPDATE {cbxTable.Text} SET ";
             label3.Text = "WHERE ";
 
-            textBox3.Size = new Size(500, textBox3.Size.Height);
+            textBox2.Size = new Size(500, textBox2.Size.Height);
 
             textBox1.ForeColor = Color.Gray;
-            textBox3.ForeColor = Color.Gray;
+            textBox2.ForeColor = Color.Gray;
             textBox1.Text = "entrer le nom des champs et sa nouvelle valeur";
-            textBox3.Text = "entrer la condition de selection";
+            textBox2.Text = "entrer la condition de selection";
 
             label1.Visible = true;
             label3.Visible = true;
             textBox1.Visible = true;
-            textBox3.Visible = true;
+            textBox2.Visible = true;
+
+            sql = label1.Text + textBox1.Text + " " +label3.Text + textBox2.Text + ';';
+
+            label4.Text = sql;
         }
 
         private void CmdSupr_Click(object sender, EventArgs e)
         {
+            string sql = "";
+
             masquerEntrer();
 
             textBox1.Location = new Point(180,textBox1.Location.Y);
-            textBox1.Size = new Size(400, textBox1.Size.Height);
 
             label1.Text = $"DELETE FROM {cbxTable.Text} WHERE";
 
@@ -178,30 +193,19 @@ namespace CLassLibrairieBDD
 
             label1.Visible = true;
             textBox1.Visible = true;
+
+            sql = label1.Text + " " + textBox1.Text + ';';
+
+            label4.Text = sql;
         }
 
         private void cmdButtonSQLValide_Click(object sender, EventArgs e)
         {
-            string sql = " ";
-
-            if (cbxTable.SelectedIndex.Equals(0))
-            {
-                sql = label1.Text + textBox1.Text + label2.Text + textBox2.Text + ";";
-            }
-            else if (cbxTable.SelectedIndex.Equals(1))
-            {
-                sql = label1.Text + textBox1.Text + label3.Text + textBox3.Text + ';';
-            }
-            else if (cbxTable.SelectedIndex.Equals(2))
-            {
-                sql = label1.Text + textBox1.Text + ';';
-            }
-
-            label4.Text = sql;
+            string sql = label4.Text;
 
             label4.Visible = true;
 
-           //BDD.executeSQL(sql); a decommenter lors de mise en marche car peut detruire la base !
+            //BDD.executeSQL(sql); a decommenter lors de mise en marche car peut detruire la base !
 
         }
 
@@ -213,11 +217,6 @@ namespace CLassLibrairieBDD
         private void textBox2_Click(object sender, EventArgs e)
         {
             textBox2.Text = "";
-        }
-
-        private void textBox3_Click(object sender, EventArgs e)
-        {
-            textBox3.Text = "";
         }
     }
 

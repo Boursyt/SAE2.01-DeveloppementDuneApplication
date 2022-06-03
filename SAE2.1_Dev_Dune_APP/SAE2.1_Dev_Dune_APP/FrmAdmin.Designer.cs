@@ -44,7 +44,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.cmdButtonSQLValide = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -199,7 +198,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(145, 280);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(291, 21);
+            this.textBox1.Size = new System.Drawing.Size(450, 21);
             this.textBox1.TabIndex = 23;
             this.textBox1.Visible = false;
             this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
@@ -207,7 +206,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(445, 283);
+            this.label2.Location = new System.Drawing.Point(637, 283);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 12);
             this.label2.TabIndex = 24;
@@ -226,21 +225,12 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(511, 280);
+            this.textBox2.Location = new System.Drawing.Point(74, 324);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(190, 21);
-            this.textBox2.TabIndex = 26;
+            this.textBox2.Size = new System.Drawing.Size(500, 21);
+            this.textBox2.TabIndex = 27;
             this.textBox2.Visible = false;
             this.textBox2.Click += new System.EventHandler(this.textBox2_Click);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(74, 324);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(500, 21);
-            this.textBox3.TabIndex = 27;
-            this.textBox3.Visible = false;
-            this.textBox3.Click += new System.EventHandler(this.textBox3_Click);
             // 
             // label4
             // 
@@ -281,7 +271,6 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cmdButtonSQLValide);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -327,7 +316,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button cmdButtonSQLValide;
         private System.Windows.Forms.Label label5;
