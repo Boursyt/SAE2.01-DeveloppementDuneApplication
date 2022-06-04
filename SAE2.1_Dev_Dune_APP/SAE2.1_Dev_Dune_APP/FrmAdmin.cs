@@ -29,42 +29,50 @@ namespace CLassLibrairieBDD
 
         private void cmdValider_Click(object sender, EventArgs e)
         {
-            string table,sql;
-            table = cbxTable.Text;
-            
-            sql = $"select * from {table}";
-            MySqlCommand cmd = new MySqlCommand(sql, BDD.macnx);
-            listBox1.Items.Clear();
-           
-            MySqlDataReader rdr = cmd.ExecuteReader();
-            if (rdr.HasRows)
+            if (listBox1.SelectedIndex==-1) 
             {
-                while (rdr.Read())
+                MessageBox.Show("Veuillez sélectionner une table");
+            }
+            else
+            {
+                string table, sql;
+                table = cbxTable.Text;
+
+                sql = $"select * from {table}";
+                MySqlCommand cmd = new MySqlCommand(sql, BDD.macnx);
+                listBox1.Items.Clear();
+
+                MySqlDataReader rdr = cmd.ExecuteReader();
+                if (rdr.HasRows)
                 {
-                    string chaine;
-                    if (table == "Horaire")
+                    while (rdr.Read())
                     {
-                        chaine = rdr[0].ToString() + "  " + rdr[1].ToString() + "  " + rdr[2].ToString() + "  " + rdr[3].ToString() + "  " + rdr[4].ToString() + "  " + rdr[5].ToString();
-                        listBox1.Items.Add(chaine);
-                    }
-                    if (table == "Arret" || table == "Image" || table == "Ligne")
-                    {
-                        chaine = rdr[0].ToString() + "  " + rdr[1].ToString() + "  " + rdr[2].ToString();
-                        listBox1.Items.Add(chaine);
-                    }
-                    if (table == "Passage")
-                    {
-                        chaine = rdr[0].ToString() + "  " + rdr[1].ToString() + "  " + rdr[2].ToString() + "  " + rdr[3].ToString() + "  " + rdr[4].ToString();
-                        listBox1.Items.Add(chaine);
+                        string chaine;
+                        if (table == "Horaire")
+                        {
+                            chaine = rdr[0].ToString() + "  " + rdr[1].ToString() + "  " + rdr[2].ToString() + "  " + rdr[3].ToString() + "  " + rdr[4].ToString() + "  " + rdr[5].ToString();
+                            listBox1.Items.Add(chaine);
+                        }
+                        if (table == "Arret" || table == "Image" || table == "Ligne")
+                        {
+                            chaine = rdr[0].ToString() + "  " + rdr[1].ToString() + "  " + rdr[2].ToString();
+                            listBox1.Items.Add(chaine);
+                        }
+                        if (table == "Passage")
+                        {
+                            chaine = rdr[0].ToString() + "  " + rdr[1].ToString() + "  " + rdr[2].ToString() + "  " + rdr[3].ToString() + "  " + rdr[4].ToString();
+                            listBox1.Items.Add(chaine);
+                        }
                     }
                 }
-            }
-            rdr.Close();
-            cmd.Dispose();
+                rdr.Close();
+                cmd.Dispose();
 
-            cmdAjouter.Enabled = true;
-            cmdModifier.Enabled = true;
-            cmdSupr.Enabled = true;
+                cmdAjouter.Enabled = true;
+                cmdModifier.Enabled = true;
+                cmdSupr.Enabled = true;
+            }
+            
 
 
         }
