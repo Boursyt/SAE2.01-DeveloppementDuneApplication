@@ -47,6 +47,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cmdButtonSQLValide = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.lbl_nomtable = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CmdRechercheItineraire
@@ -264,11 +265,22 @@
             this.label5.Text = "label5";
             this.label5.Visible = false;
             // 
+            // lbl_nomtable
+            // 
+            this.lbl_nomtable.AutoSize = true;
+            this.lbl_nomtable.Location = new System.Drawing.Point(333, 42);
+            this.lbl_nomtable.Name = "lbl_nomtable";
+            this.lbl_nomtable.Size = new System.Drawing.Size(51, 20);
+            this.lbl_nomtable.TabIndex = 31;
+            this.lbl_nomtable.Text = "label6";
+            this.lbl_nomtable.Visible = false;
+            // 
             // FrmAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1065, 708);
+            this.Controls.Add(this.lbl_nomtable);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cmdButtonSQLValide);
             this.Controls.Add(this.label4);
@@ -319,5 +331,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button cmdButtonSQLValide;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbl_nomtable;
     }
 }

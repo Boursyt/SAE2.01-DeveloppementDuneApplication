@@ -29,12 +29,15 @@ namespace CLassLibrairieBDD
 
         private void cmdValider_Click(object sender, EventArgs e)
         {
-            if (listBox1.SelectedIndex==-1) 
+            if (cbxTable.SelectedIndex==-1) 
             {
                 MessageBox.Show("Veuillez sélectionner une table");
             }
             else
             {
+                lbl_nomtable.Text = "Table : " + cbxTable.Text;
+                lbl_nomtable.Visible = true;
+
                 string table, sql;
                 table = cbxTable.Text;
 
