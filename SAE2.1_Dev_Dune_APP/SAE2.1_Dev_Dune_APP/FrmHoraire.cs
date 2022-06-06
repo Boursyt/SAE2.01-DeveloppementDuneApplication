@@ -50,6 +50,7 @@ namespace SAE2._1_Dev_Dune_APP
                 pictureBox1.Load(BDD.imageBDD(3));//On charge l'image depuis la base de données grâce à la fonctions imageBDD
                 pictureBox1.Visible = true;//On rend visible l'image
             }
+           
         }
         
 

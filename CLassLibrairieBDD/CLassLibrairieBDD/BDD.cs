@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace CLassLibrairieBDD
 {
     public class BDD
@@ -62,35 +63,36 @@ namespace CLassLibrairieBDD
         {
             string sql;//Varaible qui va contenir la commande SQL
             string url = " ";//Variable qui va contenir l'url de l'image
-            sql = $"select * from Image";
-            MySqlCommand cmd = new MySqlCommand(sql, macnx);
-            MySqlDataReader rdr = cmd.ExecuteReader();
-            int i = 1;
-            while (rdr.Read())
+            sql = $"select * from Image"; //commande SQL qui selectionne tout ce que contient la table Image
+            MySqlCommand cmd = new MySqlCommand(sql, macnx); //exectution de la commande SQL
+            MySqlDataReader rdr = cmd.ExecuteReader(); //lecture du resultat de la commande
+            int i = 1; //variable qui sert de compteur de ligne dans la table 
+            while (rdr.Read())//lis les lignes de la table SQL une par une
             {
-                if (i == numimage)
+                if (i == numimage)//si on tombe sur l'image choisie on fait
                 {
-                    url = rdr.GetString(2);
-                    break;
+                    url = rdr.GetString(2);//renvoi de l'url de l'image choisie
+                    break;//sorti de boucle
                 }
-                i++;
+                i++;//passage à la ligne suivante
             }
-            rdr.Close();
-            cmd.Dispose();
-            return url;
+            rdr.Close();//fermeture de la lecture
+            cmd.Dispose();//fermeture de l'execution
+            return url;//renvoi l'url de l'image 
         }
 
         public static bool executeSQL(string sql)//Fonction qui permet d'éxecuter une commande SQL
         {
-            try
+            try // gestion d'erreur de l'execution de la commande SQL
             {
-                MySqlCommand cmd = new MySqlCommand(sql, macnx);
-                cmd.Dispose();
-                return true;
+                MySqlCommand cmd = new MySqlCommand(sql, macnx); //execute la commande SQL en creant une connection
+                cmd.Dispose(); //fermeture la connection
+                return true; //retourne la valeur faux
             }
-            catch
+            catch (Exception ex)//si il y'a une erreur dans l'execution
             {
-                return false;
+                Console.WriteLine(ex.ToString());//affichage de l'erreur dans la console
+                return false; // retourne la valeur faux 
             }
         }
        

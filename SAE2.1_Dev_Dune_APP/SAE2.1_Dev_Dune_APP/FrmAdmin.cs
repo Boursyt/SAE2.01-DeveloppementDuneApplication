@@ -127,6 +127,7 @@ namespace CLassLibrairieBDD
            
         }
 
+       
         private void CmdAjouter_Click(object sender, EventArgs e)
         {
             string sql = "";//On crée une variable de type string sql qui est vide
@@ -181,6 +182,7 @@ namespace CLassLibrairieBDD
             sql = lbl_admin1.Text + txt_admin1.Text + " " +lbl_admin3.Text + txt_admin2.Text + ';';//On prend la saisie utilisateur pour la contenir dans une variable
 
             lbl_admin4.Text = sql;//On affiche la commande SQL final à l'utilisateur
+
         }
 
         private void CmdSupr_Click(object sender, EventArgs e)
@@ -211,8 +213,15 @@ namespace CLassLibrairieBDD
 
             lbl_admin4.Visible = true;//On rend visible le label 4
 
-            BDD.executeSQL(sql); //Execute la commande SQL dans la base de données
+            bool executionSQL = BDD.executeSQL(sql); //Execute la commande SQL dans la base de données
+            if (executionSQL == false) // Si la commande SQL n'a pas reussi a s'execute 
+            {
+                string message = "Erreur detecte dans la saisie de la commande SQL !"; // message d'erreur
+                string caption = "Erreur execution commande SQL"; //titre de la message box
+                MessageBoxButtons buttons = MessageBoxButtons.OK; // type de message avec un seul bouton ok
 
+                MessageBox.Show(message,caption,buttons); //affichage de la message box d'erreur
+            }
         }
 
         private void textBox1_Click(object sender, EventArgs e)
