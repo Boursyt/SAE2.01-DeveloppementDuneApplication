@@ -22,26 +22,33 @@ namespace SAE2._1_Dev_Dune_APP
 
         private void FrmHoraire_Load(object sender, EventArgs e)
         {
-            comboBoxLigne.SelectedIndex = 0;
+            comboBoxLigne.SelectedIndex = -1;
             pictureBox1.Visible = false;
         }
         
         private void cmdButtonValider_Click(object sender, EventArgs e)
         {
+            if (comboBoxLigne.SelectedIndex.Equals(-1))
+            {
+                cmdButtonValider.Enabled = false;//On désactive le bouton valider
+            }
             if (comboBoxLigne.SelectedIndex.Equals(0))
             {
-                pictureBox1.Load(BDD.imageBDD(1));
-                pictureBox1.Visible = true;
+                cmdButtonValider.Enabled = true;//On active le bouton valider
+                pictureBox1.Load(BDD.imageBDD(1));//On charge l'image depuis la base de données grâce à la fonctions imageBDD
+                pictureBox1.Visible = true;//On rend visible l'image
             }
             if (comboBoxLigne.SelectedIndex.Equals(1))
             {
-                pictureBox1.Load(BDD.imageBDD(2));
-                pictureBox1.Visible = true;
+                cmdButtonValider.Enabled = true;//On active le bouton valider
+                pictureBox1.Load(BDD.imageBDD(2));//On charge l'image depuis la base de données grâce à la fonctions imageBDD
+                pictureBox1.Visible = true;//On rend visible l'image
             }
             if (comboBoxLigne.SelectedIndex.Equals(2))
             {
-                pictureBox1.Load(BDD.imageBDD(3));
-                pictureBox1.Visible = true;
+                cmdButtonValider.Enabled = true;//On active le bouton valider
+                pictureBox1.Load(BDD.imageBDD(3));//On charge l'image depuis la base de données grâce à la fonctions imageBDD
+                pictureBox1.Visible = true;//On rend visible l'image
             }
         }
         

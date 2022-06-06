@@ -25,7 +25,6 @@ C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\CLassLibrairieB
 C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\bin\Debug\System.Buffers.dll
 C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\bin\Debug\K4os.Compression.LZ4.dll
 C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\bin\Debug\K4os.Hash.xxHash.dll
-C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\bin\Debug\MySql.Data.xml
 C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.csproj.AssemblyReference.cache
 C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.csproj.CoreCompileInputs.cache
 C:\Users\damie\Source\Repos\SAE2.01-DeveloppementDuneApplication\CLassLibrairieBDD\CLassLibrairieBDD\obj\Debug\CLassLibrairieBDD.csproj.CopyComplete

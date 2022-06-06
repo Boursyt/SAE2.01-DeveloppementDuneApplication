@@ -33,20 +33,20 @@
             this.CmdCarteLigne = new System.Windows.Forms.Button();
             this.cmdAcceuil = new System.Windows.Forms.Button();
             this.CmdAdmin = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox_contenutable = new System.Windows.Forms.ListBox();
             this.cbxTable = new System.Windows.Forms.ComboBox();
             this.cmdAjouter = new System.Windows.Forms.Button();
             this.cmdModifier = new System.Windows.Forms.Button();
             this.cmdSupr = new System.Windows.Forms.Button();
             this.cmdValider = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbl_admin1 = new System.Windows.Forms.Label();
+            this.txt_admin1 = new System.Windows.Forms.TextBox();
+            this.lbl_admin2 = new System.Windows.Forms.Label();
+            this.lbl_admin3 = new System.Windows.Forms.Label();
+            this.txt_admin2 = new System.Windows.Forms.TextBox();
+            this.lbl_admin4 = new System.Windows.Forms.Label();
             this.cmdButtonSQLValide = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_admin5 = new System.Windows.Forms.Label();
             this.lbl_nomtable = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -112,15 +112,14 @@
             this.CmdAdmin.UseVisualStyleBackColor = true;
             this.CmdAdmin.Click += new System.EventHandler(this.CmdAdmin_Click);
             // 
-            // listBox1
+            // listBox_contenutable
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(333, 68);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(716, 304);
-            this.listBox1.TabIndex = 15;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.listBox_contenutable.FormattingEnabled = true;
+            this.listBox_contenutable.ItemHeight = 20;
+            this.listBox_contenutable.Location = new System.Drawing.Point(333, 68);
+            this.listBox_contenutable.Name = "listBox_contenutable";
+            this.listBox_contenutable.Size = new System.Drawing.Size(716, 304);
+            this.listBox_contenutable.TabIndex = 15;
             // 
             // cbxTable
             // 
@@ -180,69 +179,69 @@
             this.cmdValider.UseVisualStyleBackColor = true;
             this.cmdValider.Click += new System.EventHandler(this.cmdValider_Click);
             // 
-            // label1
+            // lbl_admin1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 472);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "label1";
-            this.label1.Visible = false;
+            this.lbl_admin1.AutoSize = true;
+            this.lbl_admin1.Location = new System.Drawing.Point(18, 472);
+            this.lbl_admin1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_admin1.Name = "lbl_admin1";
+            this.lbl_admin1.Size = new System.Drawing.Size(51, 20);
+            this.lbl_admin1.TabIndex = 22;
+            this.lbl_admin1.Text = "label1";
+            this.lbl_admin1.Visible = false;
             // 
-            // textBox1
+            // txt_admin1
             // 
-            this.textBox1.Location = new System.Drawing.Point(218, 467);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(673, 26);
-            this.textBox1.TabIndex = 23;
-            this.textBox1.Visible = false;
-            this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
+            this.txt_admin1.Location = new System.Drawing.Point(218, 467);
+            this.txt_admin1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_admin1.Name = "txt_admin1";
+            this.txt_admin1.Size = new System.Drawing.Size(673, 26);
+            this.txt_admin1.TabIndex = 23;
+            this.txt_admin1.Visible = false;
+            this.txt_admin1.Click += new System.EventHandler(this.textBox1_Click);
             // 
-            // label2
+            // lbl_admin2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(956, 472);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 20);
-            this.label2.TabIndex = 24;
-            this.label2.Text = "label2";
-            this.label2.Visible = false;
+            this.lbl_admin2.AutoSize = true;
+            this.lbl_admin2.Location = new System.Drawing.Point(956, 472);
+            this.lbl_admin2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_admin2.Name = "lbl_admin2";
+            this.lbl_admin2.Size = new System.Drawing.Size(51, 20);
+            this.lbl_admin2.TabIndex = 24;
+            this.lbl_admin2.Text = "label2";
+            this.lbl_admin2.Visible = false;
             // 
-            // label3
+            // lbl_admin3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 545);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 20);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "label3";
-            this.label3.Visible = false;
+            this.lbl_admin3.AutoSize = true;
+            this.lbl_admin3.Location = new System.Drawing.Point(10, 545);
+            this.lbl_admin3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_admin3.Name = "lbl_admin3";
+            this.lbl_admin3.Size = new System.Drawing.Size(51, 20);
+            this.lbl_admin3.TabIndex = 25;
+            this.lbl_admin3.Text = "label3";
+            this.lbl_admin3.Visible = false;
             // 
-            // textBox2
+            // txt_admin2
             // 
-            this.textBox2.Location = new System.Drawing.Point(111, 540);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(748, 26);
-            this.textBox2.TabIndex = 27;
-            this.textBox2.Visible = false;
-            this.textBox2.Click += new System.EventHandler(this.textBox2_Click);
+            this.txt_admin2.Location = new System.Drawing.Point(111, 540);
+            this.txt_admin2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_admin2.Name = "txt_admin2";
+            this.txt_admin2.Size = new System.Drawing.Size(748, 26);
+            this.txt_admin2.TabIndex = 27;
+            this.txt_admin2.Visible = false;
+            this.txt_admin2.Click += new System.EventHandler(this.textBox2_Click);
             // 
-            // label4
+            // lbl_admin4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(330, 398);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 20);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "label4";
-            this.label4.Visible = false;
+            this.lbl_admin4.AutoSize = true;
+            this.lbl_admin4.Location = new System.Drawing.Point(330, 398);
+            this.lbl_admin4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_admin4.Name = "lbl_admin4";
+            this.lbl_admin4.Size = new System.Drawing.Size(51, 20);
+            this.lbl_admin4.TabIndex = 28;
+            this.lbl_admin4.Text = "label4";
+            this.lbl_admin4.Visible = false;
             // 
             // cmdButtonSQLValide
             // 
@@ -254,16 +253,16 @@
             this.cmdButtonSQLValide.UseVisualStyleBackColor = true;
             this.cmdButtonSQLValide.Click += new System.EventHandler(this.cmdButtonSQLValide_Click);
             // 
-            // label5
+            // lbl_admin5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(870, 552);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 20);
-            this.label5.TabIndex = 30;
-            this.label5.Text = "label5";
-            this.label5.Visible = false;
+            this.lbl_admin5.AutoSize = true;
+            this.lbl_admin5.Location = new System.Drawing.Point(870, 552);
+            this.lbl_admin5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_admin5.Name = "lbl_admin5";
+            this.lbl_admin5.Size = new System.Drawing.Size(51, 20);
+            this.lbl_admin5.TabIndex = 30;
+            this.lbl_admin5.Text = "label5";
+            this.lbl_admin5.Visible = false;
             // 
             // lbl_nomtable
             // 
@@ -281,20 +280,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1065, 708);
             this.Controls.Add(this.lbl_nomtable);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lbl_admin5);
             this.Controls.Add(this.cmdButtonSQLValide);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_admin4);
+            this.Controls.Add(this.txt_admin2);
+            this.Controls.Add(this.lbl_admin3);
+            this.Controls.Add(this.lbl_admin2);
+            this.Controls.Add(this.txt_admin1);
+            this.Controls.Add(this.lbl_admin1);
             this.Controls.Add(this.cmdValider);
             this.Controls.Add(this.cmdSupr);
             this.Controls.Add(this.cmdModifier);
             this.Controls.Add(this.cmdAjouter);
             this.Controls.Add(this.cbxTable);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listBox_contenutable);
             this.Controls.Add(this.CmdRechercheItineraire);
             this.Controls.Add(this.CmdHoraireLigne);
             this.Controls.Add(this.CmdCarteLigne);
@@ -317,20 +316,20 @@
         private System.Windows.Forms.Button CmdCarteLigne;
         private System.Windows.Forms.Button cmdAcceuil;
         private System.Windows.Forms.Button CmdAdmin;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBox_contenutable;
         private System.Windows.Forms.ComboBox cbxTable;
         private System.Windows.Forms.Button cmdAjouter;
         private System.Windows.Forms.Button cmdModifier;
         private System.Windows.Forms.Button cmdSupr;
         private System.Windows.Forms.Button cmdValider;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbl_admin1;
+        private System.Windows.Forms.TextBox txt_admin1;
+        private System.Windows.Forms.Label lbl_admin2;
+        private System.Windows.Forms.Label lbl_admin3;
+        private System.Windows.Forms.TextBox txt_admin2;
+        private System.Windows.Forms.Label lbl_admin4;
         private System.Windows.Forms.Button cmdButtonSQLValide;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbl_admin5;
         private System.Windows.Forms.Label lbl_nomtable;
     }
 }
