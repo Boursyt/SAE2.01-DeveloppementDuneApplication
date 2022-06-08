@@ -81,20 +81,6 @@ namespace CLassLibrairieBDD
             return url;//renvoi l'url de l'image 
         }
 
-        public static bool executeSQL(string sql)//Fonction qui permet d'éxecuter une commande SQL
-        {
-            try // gestion d'erreur de l'execution de la commande SQL
-            {
-                MySqlCommand cmd = new MySqlCommand(sql, macnx); //execute la commande SQL en creant une connection
-                cmd.Dispose(); //fermeture la connection
-                return true; //retourne la valeur faux
-            }
-            catch (Exception ex)//si il y'a une erreur dans l'execution
-            {
-                Console.WriteLine(ex.ToString());//affichage de l'erreur dans la console
-                return false; // retourne la valeur faux 
-            }
-        }
        
     }
 }
